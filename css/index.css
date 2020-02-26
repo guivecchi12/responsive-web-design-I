@@ -74,33 +74,32 @@ header{
 	height:100px;
 }
 nav{
-	margin:auto;
-	position:fixed;
-	background:lightskyblue;
-	text-align:center;
-	display: inline-block;
-	padding:20px 10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 	width:900px;
 	height: 80px;
 	
 }
 nav div{
-	display:inline-block;
-	vertical-align:center;	
-	width:55%;
+	display:flex;
+	align-items: center;
+    justify-content: space-between;	
+	width:70%;
 }
 nav a{
-	text-align:center;
 	text-decoration:none;
 	color:black;
 	opacity:0.5;
-	padding:2.5%;
-	
 	margin:auto;
 }
 img.logo{
-	margin-left:10%;
+	/* margin-left:10%; */
 	width:20%;
+}
+div.main{
+    display:flex;
+    justify-content: space-between;
 }
 section.first{
 	font-family: 'Bangers';
